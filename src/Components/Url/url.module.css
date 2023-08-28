@@ -1,0 +1,48 @@
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.form_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 725px;
+    max-width: 100%;
+}
+
+.container_div{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title_label{
+    padding: 5px;
+    margin: 20px;
+}
+
+.input_url_original{
+    height: 30px;
+    padding: 7px 9px 7px 9px;
+    border-radius: 15px;
+    border: 2px solid #ba7127;
+}
+
+.buttom {
+    background-color: #ff0000;
+    color: #000000;
+    font-style : italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: 16px;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 200px;
+}
